@@ -3,10 +3,10 @@
  main( )
 {
 double x, y, y0 ;
-printf( "ÊäÈëÒ»¸öÕıÊı:" ) ;
+printf( "è¾“å…¥ä¸€ä¸ªæ­£æ•°:" ) ;
 do
 {
-scanf("%lf", &x );//¸ñÊ½lf
+scanf("%lf", &x );//æ ¼å¼lf
 }
 while( x<0 );
 y = 1;

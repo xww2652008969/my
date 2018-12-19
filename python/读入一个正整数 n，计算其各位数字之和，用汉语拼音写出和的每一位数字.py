@@ -1,24 +1,24 @@
 def sum (a) :
     if a==0 :
-       print("ling",end=" ")
+       print("ling",end="")
     elif a==1 :
-        print("yi",end=" ")
+        print("yi",end="")
     elif a==2 :
-        print("er",end=" ")
+        print("er",end="")
     elif a==3 :
-         print("san",end=" ")
+         print("san",end="")
     elif a==4 :
-        print("si",end=" ")        
+        print("si",end="")        
     elif a==5 :
-         print("wu",end=" ")
+         print("wu",end="")
     elif a==6 :
-         print("liu",end=" ")
+         print("liu",end="")
     elif a==7 :
-         print("qi",end=" ")        
+         print("qi",end="")        
     elif a==8 :
-        print("ba",end=" ")
+        print("ba",end="")
     elif a==9 :
-         print("jiu",end=" ")
+         print("jiu",end="")
 
 b=int(input())
 c=0

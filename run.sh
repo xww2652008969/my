@@ -40,7 +40,6 @@ if [[ -z "$HAS_ERRORS" ]]; then
 else
   echo "$HAS_ERRORS"
   exit 4
- sleep 30m
  fi
- 
+sleep 30m
 done

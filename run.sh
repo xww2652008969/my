@@ -30,6 +30,9 @@ rm -f .ngrok.log
 sleep 10
 HAS_ERRORS=$(grep "command failed" < .ngrok.log)
 
+fi
+for ((;;))
+do
 if [[ -z "$HAS_ERRORS" ]]; then
   echo ""
   echo "=========================================="
@@ -38,4 +41,5 @@ if [[ -z "$HAS_ERRORS" ]]; then
 else
   echo "$HAS_ERRORS"
   exit 4
-fi
+ sleep 30m
+done

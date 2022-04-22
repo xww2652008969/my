@@ -1,5 +1,7 @@
 name: Debugging with SSH
 on:
+  watch:
+    types: [started]
 jobs:
   build:
     runs-on: ubuntu-latest

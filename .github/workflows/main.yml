@@ -1,8 +1,5 @@
 name: Debugging with SSH
 on:
-  push:
-    branches:
-      - test_ngork
 jobs:
   build:
     runs-on: ubuntu-latest
